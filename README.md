@@ -19,20 +19,19 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "The Stripes NFT",
+  "NFT_NAME": "Stray Cat NFT",
   "SYMBOL": "TSNFT",
   "MAX_SUPPLY": 992,
   "WEI_COST": 75000000000000000,
   "DISPLAY_COST": 0.075,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/"replace"t",
   "SHOW_BACKGROUND": true
 }
 ```
 
 Make sure you copy the contract ABI from remix and paste it in the `public/config/abi.json` file.
-(follow the youtube video if you struggle with this part).
 
 Now you will need to create and change 2 images and a gif in the `public/config/images` folder, `bg.png`, `example.gif` and `logo.png`.
 
@@ -63,8 +62,8 @@ Also remember to update the short_name and name fields in the `public/manifest.j
 
 ```json
 {
-  "short_name": "TSNFT",
-  "name": "The Stripes NFT"
+  "short_name": "SCNFT",
+  "name": "StrayCat NFT"
 }
 ```
 
